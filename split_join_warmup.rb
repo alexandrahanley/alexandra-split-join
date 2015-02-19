@@ -18,7 +18,7 @@ team_list.split(", ")
 end
 
 def number_of_teams(team_list)
-
+  team_list.split(", ").count
 end
 
 def return_australia(team_list)
