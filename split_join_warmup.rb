@@ -14,7 +14,7 @@ def goal(goal_message)
 end
 
 def generate_an_array_of_teams(team_list)
-
+team_list.split(", ")
 end
 
 def number_of_teams(team_list)
